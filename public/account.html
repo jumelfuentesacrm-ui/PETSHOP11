@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Staff Dashboard · Posh Pet</title>
+    <title>My Account · Posh Pet</title>
     <meta name="robots" content="noindex" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,17 +19,19 @@
 
     <section class="page-head">
       <div class="container">
-        <p class="crumbs"><a href="/">Home</a> · Staff</p>
-        <span class="eyebrow">Internal</span>
-        <h1>Staff dashboard</h1>
-        <p>Manage grooming appointments, store orders, inventory and messages.</p>
+        <p class="crumbs"><a href="/">Home</a> · Account</p>
+        <span class="eyebrow">Your account</span>
+        <h1 id="acctTitle">My account</h1>
+        <p id="acctIntro">
+          Sign in to save your pets, speed up booking and review your history.
+        </p>
       </div>
     </section>
 
     <section class="section">
       <div class="container">
-        <div id="adminRoot">
-          <div class="skeleton" style="height:200px"></div>
+        <div id="accountRoot">
+          <div class="skeleton" style="height:240px"></div>
         </div>
       </div>
     </section>
@@ -39,6 +41,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="/js/supabase-config.js"></script>
     <script src="/js/site.js"></script>
-    <script src="/js/admin.js"></script>
+    <script src="/js/account.js"></script>
   </body>
 </html>

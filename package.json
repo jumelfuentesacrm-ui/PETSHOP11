@@ -1,7 +1,7 @@
 {
   "name": "posh-pet-website",
-  "version": "1.0.0",
-  "description": "Booking-oriented website and online store for Posh Pet Store & Grooming, San Juan, Puerto Rico.",
+  "version": "2.0.0",
+  "description": "Booking & store website for Posh Pet Store & Grooming — static front end on Vercel, backend on Supabase.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
