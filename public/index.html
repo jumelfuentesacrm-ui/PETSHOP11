@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Posh Pet Store &amp; Grooming · San Juan, Puerto Rico</title>
+    <meta
+      name="description"
+      content="Posh Pet is a full-service pet store and grooming salon on Ave. Hostos, San Juan. Book grooming online and shop food, treats, toys and accessories."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Nunito+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header id="site-header"></header>
+
+    <!-- ================================ HERO ============================== -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__grid">
+          <div class="hero__text">
+            <span class="eyebrow">San Juan · Ave. Hostos</span>
+            <h1>Where your pet is <em>pampered</em> like family.</h1>
+            <p>
+              For over 20 years, Posh Pet has groomed, fed and spoiled the dogs
+              and cats of San Juan. Book a spa day online and shop everything
+              your pet needs — all in one place.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="/book">Book a grooming</a>
+              <a class="btn btn--ghost" href="/shop">Shop the store</a>
+            </div>
+            <div class="hero__meta">
+              <div><strong>20+</strong><span>Years of care</span></div>
+              <div><strong>7</strong><span>Grooming services</span></div>
+              <div><strong>Mon–Sat</strong><span>8 AM – 6 PM</span></div>
+            </div>
+          </div>
+          <div class="hero__visual">
+            <div class="hero__panel">
+              <img src="/img/hero-pet.svg" alt="A freshly groomed, happy dog" />
+              <div class="float-card float-card--tl">
+                <span class="dot"></span>
+                <span>Open today<small>Until 6:00 PM</small></span>
+              </div>
+              <div class="float-card float-card--br">
+                <span class="float-icon" id="heroIconStar"></span>
+                <span>Loved by locals<small>Trusted since 2004</small></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== TRUST BAR =========================== -->
+    <div class="trustbar">
+      <div class="container">
+        <div class="trustbar__row" id="trustRow"></div>
+      </div>
+    </div>
+
+    <!-- ============================== SERVICES ============================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow" style="justify-content:center">The grooming salon</span>
+          <h2>A spa day, tailored to your pet</h2>
+          <p>
+            From a quick nail trim to a full breed-specific cut, every service
+            is carried out by groomers with decades of hands-on experience.
+          </p>
+        </div>
+        <div class="grid grid--3" id="servicesPreview"></div>
+        <div class="center mt-3">
+          <a class="btn btn--dark" href="/services">See all services &amp; pricing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== BOOKING ============================= -->
+    <section class="section section--ink">
+      <div class="container">
+        <div class="section-head center" style="color:var(--cream)">
+          <span class="eyebrow" style="justify-content:center;color:var(--gold)">Easy booking</span>
+          <h2>Three steps to a fresh, happy pet</h2>
+        </div>
+        <div class="steps">
+          <div class="step">
+            <div class="step__num">1</div>
+            <h3>Choose a service</h3>
+            <p style="color:rgba(251,247,240,.72)">
+              Pick the groom that suits your pet and tell us a little about them.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step__num">2</div>
+            <h3>Pick a time</h3>
+            <p style="color:rgba(251,247,240,.72)">
+              See real-time availability and reserve a slot that works for you.
+            </p>
+          </div>
+          <div class="step">
+            <div class="step__num">3</div>
+            <h3>We'll take it from here</h3>
+            <p style="color:rgba(251,247,240,.72)">
+              Drop your pet off and pick up a pampered, picture-perfect friend.
+            </p>
+          </div>
+        </div>
+        <div class="center mt-3">
+          <a class="btn btn--primary" href="/book">Start booking</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PRODUCTS ============================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">The store</span>
+          <h2>Picked by our team for yours</h2>
+          <p>
+            Holistic foods, healthy treats, durable toys and the essentials —
+            for dogs, cats, birds, reptiles, fish and small pets.
+          </p>
+        </div>
+        <div class="product-grid" id="featuredProducts"></div>
+        <div class="center mt-3">
+          <a class="btn btn--dark" href="/shop">Browse the whole shop</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =============================== ABOUT ============================== -->
+    <section class="section section--cream">
+      <div class="container">
+        <div class="split">
+          <div>
+            <span class="eyebrow">Our story</span>
+            <h2 style="font-size:clamp(2rem,4vw,2.7rem);margin:.6rem 0 1rem">
+              Two decades of love for the pets of San Juan
+            </h2>
+            <p class="muted">
+              What began as a simple love for animals has grown into a
+              full-service pet store and grooming salon on Avenida Hostos. Our
+              owner brings more than 20 years of experience to every visit, and
+              the whole team treats your pet with the patience and care they
+              deserve.
+            </p>
+            <p class="muted mt-1">
+              We believe great care starts with great nutrition — that's why we
+              specialize in holistic and natural foods alongside everything
+              else your companion needs to thrive.
+            </p>
+            <div class="hero__cta">
+              <a class="btn btn--dark" href="/contact">Visit our store</a>
+            </div>
+          </div>
+          <div class="about-visual">
+            <div class="fact-grid">
+              <div class="fact"><strong>2004</strong><span>Caring for pets since</span></div>
+              <div class="fact"><strong>6</strong><span>Days open every week</span></div>
+              <div class="fact"><strong>100%</strong><span>Holistic nutrition focus</span></div>
+              <div class="fact"><strong>All</strong><span>Dogs, cats &amp; small pets</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================ TESTIMONIALS ========================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head center">
+          <span class="eyebrow" style="justify-content:center">Pet parents</span>
+          <h2>Tails are wagging</h2>
+        </div>
+        <div class="grid grid--3" id="quotes"></div>
+      </div>
+    </section>
+
+    <!-- ============================== CALLOUT ============================= -->
+    <section class="section--tight">
+      <div class="container">
+        <div class="callout">
+          <div>
+            <h2>Ready to pamper your pet?</h2>
+            <p>
+              Reserve a grooming appointment in under two minutes, or stop by
+              the store on Ave. Hostos — we'd love to meet your companion.
+            </p>
+          </div>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="/book">Book grooming</a>
+            <a class="btn btn--light" href="/contact">Get directions</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="site-footer"></footer>
+
+    <script src="/js/site.js"></script>
+    <script src="/js/home.js"></script>
+  </body>
+</html>

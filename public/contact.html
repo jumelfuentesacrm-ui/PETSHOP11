@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Visit Us · Posh Pet Store &amp; Grooming, San Juan</title>
+    <meta
+      name="description"
+      content="Visit Posh Pet at 359 Ave. Hostos, San Juan. Hours, directions, phone and a contact form for grooming and product questions."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Nunito+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header id="site-header"></header>
+
+    <section class="page-head">
+      <div class="container">
+        <p class="crumbs"><a href="/">Home</a> · Contact</p>
+        <span class="eyebrow">Come say hello</span>
+        <h1>Visit Posh Pet</h1>
+        <p>
+          Find us on Avenida Hostos in San Juan — open six days a week for
+          grooming, nutrition advice and everything your pet needs.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid--2" style="align-items:start">
+          <div>
+            <div class="info-card" id="contactInfo"></div>
+            <div class="info-card mt-2">
+              <h3 style="font-size:1.2rem;margin-bottom:.6rem">Opening hours</h3>
+              <ul class="hours-list" id="hoursList"></ul>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <h3 style="font-size:1.3rem">Send us a message</h3>
+            <p class="muted" style="margin:.3rem 0 1rem">
+              Questions about grooming, products or your pet? We'll get back to
+              you as soon as we can.
+            </p>
+            <div id="contactFormWrap">
+              <form id="contactForm" novalidate>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="fName">Name</label>
+                    <input id="fName" type="text" maxlength="60" />
+                  </div>
+                  <div class="field">
+                    <label for="fEmail">Email</label>
+                    <input id="fEmail" type="email" maxlength="80" />
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="field">
+                    <label for="fPhone">Phone <span class="hint">optional</span></label>
+                    <input id="fPhone" type="tel" maxlength="24" />
+                  </div>
+                  <div class="field">
+                    <label for="fSubject">Subject <span class="hint">optional</span></label>
+                    <input id="fSubject" type="text" maxlength="120" />
+                  </div>
+                </div>
+                <div class="field">
+                  <label for="fMessage">Message</label>
+                  <textarea id="fMessage" maxlength="2000" placeholder="How can we help?"></textarea>
+                </div>
+                <div id="contactErrors"></div>
+                <button class="btn btn--primary btn--block" id="sendMsg" type="button">
+                  Send message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-3" id="mapWrap"></div>
+      </div>
+    </section>
+
+    <footer id="site-footer"></footer>
+
+    <script src="/js/site.js"></script>
+    <script src="/js/contact.js"></script>
+  </body>
+</html>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" role="img" aria-label="Illustration of a happy, freshly groomed dog">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7ecdc"/>
+      <stop offset="1" stop-color="#efdcc2"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f0c89f"/>
+      <stop offset="1" stop-color="#e3b184"/>
+    </linearGradient>
+  </defs>
+
+  <!-- backdrop -->
+  <circle cx="250" cy="250" r="244" fill="url(#bg)"/>
+  <circle cx="250" cy="250" r="232" fill="none" stroke="#d8b878" stroke-width="2" stroke-dasharray="2 12" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- floating accents -->
+  <g fill="#d8b878" opacity="0.55">
+    <circle cx="78" cy="150" r="7"/>
+    <circle cx="430" cy="360" r="9"/>
+    <circle cx="402" cy="120" r="5"/>
+    <circle cx="110" cy="380" r="5"/>
+  </g>
+  <g fill="#c98a5e" opacity="0.5">
+    <path d="M70 300c0-7 5-12 11-12s11 5 11 12-5 12-11 12-11-5-11-12zm-9-22a6 7 0 1 0 .1 0zm38 0a6 7 0 1 0 .1 0zm-30-15a5 6 0 1 0 .1 0zm22 0a5 6 0 1 0 .1 0z"/>
+  </g>
+  <g fill="#2f6f6a" opacity="0.45">
+    <path d="M420 215c0-7 5-12 11-12s11 5 11 12-5 12-11 12-11-5-11-12zm-9-22a6 7 0 1 0 .1 0zm38 0a6 7 0 1 0 .1 0zm-30-15a5 6 0 1 0 .1 0zm22 0a5 6 0 1 0 .1 0z"/>
+  </g>
+
+  <!-- ears (behind head) -->
+  <g>
+    <ellipse cx="139" cy="266" rx="50" ry="104" fill="#d99e72" transform="rotate(-16 139 266)"/>
+    <ellipse cx="361" cy="266" rx="50" ry="104" fill="#d99e72" transform="rotate(16 361 266)"/>
+    <ellipse cx="143" cy="280" rx="26" ry="64" fill="#c5825a" transform="rotate(-16 143 280)"/>
+    <ellipse cx="357" cy="280" rx="26" ry="64" fill="#c5825a" transform="rotate(16 357 280)"/>
+  </g>
+
+  <!-- head -->
+  <ellipse cx="250" cy="262" rx="132" ry="124" fill="url(#fur)"/>
+
+  <!-- topknot puff -->
+  <g fill="#f4d2ab">
+    <circle cx="250" cy="150" r="34"/>
+    <circle cx="214" cy="166" r="26"/>
+    <circle cx="286" cy="166" r="26"/>
+    <circle cx="250" cy="178" r="30"/>
+  </g>
+
+  <!-- bow -->
+  <g>
+    <path d="M250 150c-26-22-58-16-58 6s32 28 58 6z" fill="#c8a35b"/>
+    <path d="M250 150c26-22 58-16 58 6s-32 28-58 6z" fill="#c8a35b"/>
+    <path d="M250 150c-26-22-58-16-58 6 14-10 36-12 58-6z" fill="#a9863f"/>
+    <path d="M250 150c26-22 58-16 58 6-14-10-36-12-58-6z" fill="#a9863f"/>
+    <circle cx="250" cy="156" r="13" fill="#a9863f"/>
+    <circle cx="250" cy="153" r="9" fill="#d8b878"/>
+  </g>
+
+  <!-- muzzle -->
+  <ellipse cx="250" cy="312" rx="78" ry="64" fill="#f7e2cb"/>
+
+  <!-- cheeks -->
+  <circle cx="173" cy="300" r="20" fill="#ea9c9c" opacity="0.55"/>
+  <circle cx="327" cy="300" r="20" fill="#ea9c9c" opacity="0.55"/>
+
+  <!-- eyes -->
+  <g fill="#43302a">
+    <ellipse cx="201" cy="258" rx="15" ry="18"/>
+    <ellipse cx="299" cy="258" rx="15" ry="18"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="206" cy="251" r="5.5"/>
+    <circle cx="304" cy="251" r="5.5"/>
+  </g>
+
+  <!-- brows -->
+  <g stroke="#c5825a" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M182 230q19-12 38-3"/>
+    <path d="M318 230q-19-12-38-3"/>
+  </g>
+
+  <!-- nose + mouth -->
+  <path d="M250 286c-16 0-26 9-26 19 0 9 12 15 26 15s26-6 26-15c0-10-10-19-26-19z" fill="#43302a"/>
+  <path d="M250 320v16M250 336c0 11-11 18-22 14M250 336c0 11 11 18 22 14" fill="none" stroke="#7a5a48" stroke-width="5" stroke-linecap="round"/>
+  <path d="M236 350q14 12 28 0" fill="#e8868a"/>
+
+  <!-- bandana -->
+  <g>
+    <path d="M250 372c-46 0-86-14-110-34l34 78c22 12 50 18 76 18s54-6 76-18l34-78c-24 20-64 34-110 34z" fill="#2f6f6a"/>
+    <path d="M250 372c-46 0-86-14-110-34l10 23c26 18 64 27 100 27s74-9 100-27l10-23c-24 20-64 34-110 34z" fill="#27605b"/>
+    <g fill="#bfe0db">
+      <circle cx="196" cy="404" r="6"/>
+      <circle cx="250" cy="416" r="6"/>
+      <circle cx="304" cy="404" r="6"/>
+      <circle cx="166" cy="386" r="5"/>
+      <circle cx="334" cy="386" r="5"/>
+    </g>
+  </g>
+
+  <!-- sparkles -->
+  <g fill="#ffffff" opacity="0.9">
+    <path d="M150 200l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+    <path d="M356 230l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+  </g>
+</svg>

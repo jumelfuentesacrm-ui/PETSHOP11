@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Shop · Pet Food, Treats, Toys &amp; Supplies · Posh Pet</title>
+    <meta
+      name="description"
+      content="Shop holistic pet food, treats, toys, beds and grooming supplies for dogs, cats and small pets. Store pickup or local delivery in San Juan."
+    />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;1,400;1,600&family=Nunito+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <header id="site-header"></header>
+
+    <section class="page-head">
+      <div class="container">
+        <p class="crumbs"><a href="/">Home</a> · Shop</p>
+        <span class="eyebrow">The store</span>
+        <h1>Everything your pet needs</h1>
+        <p>
+          Holistic foods, healthy treats, durable toys and the essentials —
+          ready for store pickup or local delivery across San Juan.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="shop-layout">
+          <aside class="filters">
+            <h4>Categories</h4>
+            <ul class="filter-list" id="filterList"></ul>
+            <div class="notice">
+              Free local delivery on orders over $60. Otherwise pickup is always
+              free at our Ave. Hostos store.
+            </div>
+          </aside>
+
+          <div>
+            <div class="shop-toolbar">
+              <span class="count" id="resultCount">Loading products…</span>
+              <div style="display:flex;gap:.7rem;flex-wrap:wrap">
+                <div class="search-box">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg>
+                  <input type="search" id="searchInput" placeholder="Search products" />
+                </div>
+                <select id="sortSelect" style="border:1.5px solid var(--line);border-radius:999px;padding:.55rem 1.1rem;font-family:inherit;font-weight:700;font-size:.92rem;background:#fff;color:var(--ink)">
+                  <option value="featured">Sort: Featured</option>
+                  <option value="price-asc">Price: Low to High</option>
+                  <option value="price-desc">Price: High to Low</option>
+                  <option value="name">Name: A–Z</option>
+                </select>
+              </div>
+            </div>
+            <div class="product-grid" id="productGrid">
+              <div class="skeleton"></div>
+              <div class="skeleton"></div>
+              <div class="skeleton"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="site-footer"></footer>
+
+    <script src="/js/site.js"></script>
+    <script src="/js/shop.js"></script>
+  </body>
+</html>
